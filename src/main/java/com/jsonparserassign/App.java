@@ -60,7 +60,7 @@ public final class App {
 
         // This is for functional requirement
         // suffix wise taking file
-        
+        Collections.sort(fileName);
 
         // Starting output file Count
         int fileCount = 0;
