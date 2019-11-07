@@ -144,7 +144,7 @@ public final class App {
     }
 
     public static boolean checkFileSize(File file, long appendLength, int limit) {
-        System.out.println(file.length() + "   "+appendLength);
+        //System.out.println(file.length() + "   "+appendLength);
         if (file.length() + appendLength > limit) {
             return true;
         } else {
