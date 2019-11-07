@@ -171,13 +171,7 @@ public final class App {
 
     }
 
-    public static long getBytesFromList(List list) throws IOException {
-		ByteArrayOutputStream baos = new ByteArrayOutputStream();
-		ObjectOutputStream out = new ObjectOutputStream(baos);
-		out.writeObject(list);
-		out.close();
-		return baos.toByteArray().length;
-	}
+  
 
 }
 
